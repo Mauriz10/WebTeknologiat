@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikä on Flexbox</title>
+</head>
+<style>
+    h1 {
+        width: 400px;
+        background-color: #f1f1f1;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    body {
+        background-image: url("pexels-archie-binamira-2463346.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-color: gainsboro;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .flex-container>div {
+        background-color: #f1f1f1;
+        width: 300px;
+        margin: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+
+    }
+
+    .flex-container>div>h3 {
+        padding-bottom: 10px;
+    }
+</style>
+
+<body>
+    <h1>Mikä on Flexbox?</h2>
+
+        <div class="flex-container">
+            <div>
+                <h3>Dynaaminen asettelu</h3>
+                Nykyaikaisen verkkosivun tulee toimia erilaisilla näytöillä. Jotta ei tarvitsisi määritellä jokaiselle
+                näyttökoolle erikseen omaa asettelua, on helpointa tehdä sivusta dynaaminen. Tämä voidaan saavuttaa
+                käyttämällä Flexbox tekniikkaa: jokainen sivun osio (elementti) on ikään kuin omalla liukuvalla
+                palikallaan joka liikkuu ja joustaa sille asetettujen sääntöjen mukaan.
+
+
+
+                <p> Esimerkiksi jos oletuksena samassa tasossa vierekkäin olevat palikat eivät enää mahdu kaikki
+                    vierekkäin kapeammalla näytöllä,
+                    voi niistä viimeinen mennäkkin omalle rivilleen muiden alapuolelle.</p>
+            </div>
+            <div>
+                <h3>Oleellisimmat asetukset</h3>
+                Kas tässä essentiaaalit asetukset jotka ainakin tarvitaan jotta sivu on dynaaminen :) Jutska A B C D E
+                <p>
+                    Miten asettelu reagoi koon muutoksiin
+                </p>
+            </div>
+            <div>
+                <h3>Ominaisuuksia</h3>
+                <ul>
+                    <li>eka</li>
+                    <ul>Tekee mitä?</ul>
+                    <li>toka</li>
+                    <ul>Tekee mitä?</ul>
+                    <li>kolmas </li>
+                    <ul>Tekee mitä?</ul>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
